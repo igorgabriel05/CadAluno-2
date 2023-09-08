@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <title>Cadastramento de Alunos!!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/preencheTable.js" defer></script>
+</head>
+
+<body>
+    <form>
+        <h1>Cadastrar</h1>
+        <input type="text" class="form-control" id="nome" placeholder="Nome">
+        <input type="text" class="form-control" id="nota1" placeholder="Nota1">
+        <input type="text" class="form-control" id="nota2" placeholder="Nota2">
+        <input type="text" class="form-control" id="nota3" placeholder="Nota3">
+
+        <input type="button" value="Cadastrar" class="btn btn-primary">
+        <input type="button" value="Alterar" class="btn btn-warning visually-hidden">
+        <input type="button" value="Remover" class="btn btn-danger visually-hidden">
+        <input type="button" value="Cancelar" class="btn btn-secondary visually-hidden">
+    </form>
+    
+    <h1>Tabela</h1>
+    <table class="table">
+        <thead>
+            <th>#</th>
+            <th>Nome</th>
+            <th>Nota1</th>
+            <th>Nota2</th>
+            <th>Nota3</th>
+            <th>Média</th>
+            <th>Situação</th>
+            <th>Selecionar</th>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <button class="btn btn-success">Selecionar</button>
+</body>
+
+</html>
